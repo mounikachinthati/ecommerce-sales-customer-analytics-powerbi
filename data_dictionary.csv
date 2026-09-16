@@ -1,0 +1,40 @@
+table,column,description
+customers,customer_id,Unique customer identifier
+customers,age,Customer age
+customers,gender,Customer gender
+customers,city,Customer city
+customers,signup_date,Customer registration date
+customers,customer_segment,Budget/Regular/Premium segment
+products,product_id,Unique product identifier
+products,product_name,Product name
+products,category,Product category
+products,brand,Product brand
+products,cost_price,Company purchase/cost price
+products,selling_price,Listed selling price
+orders,order_id,Unique order identifier
+orders,customer_id,Customer who placed order
+orders,product_id,Product ordered
+orders,order_date,Order date
+orders,quantity,Number of units
+orders,unit_price,Selling price per unit
+orders,discount_pct,Discount percentage
+orders,payment_method,Payment method
+orders,order_status,Delivered/Cancelled/Returned
+orders,gross_amount,Quantity × unit price
+orders,discount_amount,Gross amount × discount
+orders,net_amount,Gross amount after discount
+delivery,order_id,Order identifier
+delivery,expected_delivery_date,Promised delivery date
+delivery,actual_delivery_date,Actual delivery date
+delivery,delivery_days,Actual delivery duration
+delivery,delivery_status,On Time/Late/Not Shipped
+returns,return_id,Unique return identifier
+returns,order_id,Returned order
+returns,return_reason,Reason for return
+returns,return_date,Date returned
+reviews,review_id,Unique review identifier
+reviews,order_id,Reviewed order
+reviews,customer_id,Reviewer
+reviews,product_id,Reviewed product
+reviews,rating,Rating from 1 to 5
+reviews,review_date,Review date
