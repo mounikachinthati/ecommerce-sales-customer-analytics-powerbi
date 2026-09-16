@@ -285,15 +285,15 @@ This project demonstrates the ability to:
 
 ## 🖥️ Dashboard Preview
 
-Add your Power BI dashboard screenshot here:
+ Your Power BI dashboard screenshot:
 
 ```text
 ![Power BI Dashboard](dashboard.png)
 ```
+## 📊 Power BI Dashboard
+![E-Commerce Sales & Customer Analytics Dashboard](dashboard.png.png)
 
-Place your dashboard screenshot in the same GitHub repository and name it:
 
-**`dashboard.png`**
 
 ---
 
